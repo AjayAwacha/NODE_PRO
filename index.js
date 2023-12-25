@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.status(200).json({message: 'Got Get Successfully', app: 'express'});
 })
 app.post('/', (req, res) => {
-    res.send('Got Post reques t Successfully');
+    res.send('Got Post request Successfully');
 })
 
 const port = process.env.PORT || 9876;
